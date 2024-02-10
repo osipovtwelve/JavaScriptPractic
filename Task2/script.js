@@ -14,7 +14,7 @@ document.querySelector('#alert').addEventListener ('click', function(){
 alert('alert() выводит Pop-up окна на странице, сейчас вы смотрите на него');
 // Замена текста для идентификатора #renameText2 при нажатии на кнопку с идентификатором #alert
 const renameSecondText = document.querySelector('#renameText2');
-renameSecondText.textContent = 'Для вывода Pop-up окна пропишите: alert(\'Текст окна\');"';
+renameSecondText.textContent = 'Для вывода Pop-up окна пропишите: alert(\'Текст окна\');';
 });
 
 // Вывод Pop-up окна с возможность ввода текста
