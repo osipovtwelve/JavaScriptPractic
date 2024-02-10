@@ -1,0 +1,14 @@
+ul {
+    list-style-type: none;
+}
+
+li{
+    padding-bottom: 10px;
+}
+
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 35px;
+}
