@@ -14,7 +14,7 @@ document.querySelector('#alert').addEventListener ('click', function(){
 alert('Вывод Pop-up окна на странице, сейчас вы смотрите на него');
 // Замена текста для идентификатора #renameText2 при нажатии на кнопку с идентификатором #alert
 const renameSecondText = document.querySelector('#renameText2');
-renameSecondText.textContent = 'Для вывода Pop-up окна, пропишите: alert(\'Текст окна\');"';
+renameSecondText.textContent = 'Для вывода Pop-up окна пропишите: alert(\'Текст окна\');"';
 });
 
 // Вывод Pop-up окна с возможность ввода текста
@@ -35,4 +35,6 @@ if (textYear == year)
 // Выводи окно с неправильным ответом
     alert('Неправильно, сейчас ' + year + ' год');
 }
+const renameThreeText = document.querySelector('#renameText3');
+renameThreeText.textContent = 'Для вывода Pop-Up окна с возможностью ввода текста пропишите: prompt(\'Введите текст в поле ниже\');';
 });
