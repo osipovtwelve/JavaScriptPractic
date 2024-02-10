@@ -3,15 +3,15 @@
 // При нажатии на кнопку с идентификатором #consoleLog, выводится сразу и сообщение в консоли, и поп-ап окно 
 document.querySelector('#consoleLog').addEventListener ('click', function(){
 console.log('Сообщение в консоли');
-alert('Метод для вывода сообщения в веб-консоль, откройте консоль');
+alert('console.log Выводит сообщения в веб-консоль, откройте консоль');
 // Замена текста для идентификатора #renameText1 при нажатии на кнопку с идентификатором #consoleLog
 const renameFirstText = document.querySelector('#renameText1');
-renameFirstText.textContent = 'Для вывода сообщения в консоль, пропишите: console.log(\'Сообщение в консоли\');';
+renameFirstText.textContent = 'Для вывода сообщения в консоль пропишите: console.log(\'Сообщение в консоли\');';
 });
 
 // Вывод окна на странице
 document.querySelector('#alert').addEventListener ('click', function(){
-alert('Вывод Pop-up окна на странице, сейчас вы смотрите на него');
+alert('alert() выводит Pop-up окна на странице, сейчас вы смотрите на него');
 // Замена текста для идентификатора #renameText2 при нажатии на кнопку с идентификатором #alert
 const renameSecondText = document.querySelector('#renameText2');
 renameSecondText.textContent = 'Для вывода Pop-up окна пропишите: alert(\'Текст окна\');"';
@@ -36,5 +36,5 @@ if (textYear == year)
     alert('Неправильно, сейчас ' + year + ' год');
 }
 const renameThreeText = document.querySelector('#renameText3');
-renameThreeText.textContent = 'Для вывода Pop-Up окна с возможностью ввода текста пропишите: prompt(\'Введите текст в поле ниже\');';
+renameThreeText.textContent = 'prompt() выводит Pop-Up окна с возможностью ввода текста пропишите: prompt(\'Введите текст в поле ниже\');';
 });
