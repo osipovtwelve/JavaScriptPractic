@@ -1,7 +1,10 @@
+//Задаем переменные и привязываем их к идендификатору
 let colorGreenChange = document.querySelector('#colorGreen');
 let colorYellowChange = document.querySelector('#colorYellow');
 let colorRedChange = document.querySelector('#colorRed');
+//Определяем количество нажатий по умолчанию
 let clickQuantity = 0;
+//Создаем функции цветов
 function makeGreen() {
     colorGreenChange.style.background = 'green';
     colorYellowChange.style.background = 'black';
@@ -20,7 +23,7 @@ function makeRed() {
     colorYellowChange.style.background = 'black';
     clickQuantity = 0;
 }
-
+//Последовательно запускаем функции по нажатию
 function getCircle() {
     switch (clickQuantity) {
         case 0: makeGreen();
